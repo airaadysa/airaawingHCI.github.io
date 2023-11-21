@@ -145,7 +145,7 @@ body {
 .image-container {
   float: left;
   width: 23%;
-  margin-left: 500px;
+  margin-left: 450px;
   position: relative;
 }
 
@@ -242,8 +242,8 @@ body {
 }
 
 .skill-circle {
-  width: 20px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
+  width: 20px; 
+  height: 20px; 
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
@@ -276,7 +276,7 @@ body {
 /* Projects */
 .project-box {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: #a6b5bd;
   border: 2px solid #fff;
   height: 300px;
@@ -290,6 +290,9 @@ body {
 .project-box h3{
   font-size: 25px;
 }
+.project-box P{
+  font-size:15px;
+}
 .project-box:hover {
   transform: scale(1.1); 
 }
@@ -300,7 +303,7 @@ body {
 
 .project-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px; 
 }
 .language-box {
